@@ -8,10 +8,7 @@ app.get('/', (req,res) => {
     res.send('Hola')
 })
 
-
-
 //product endpoints
-
 app.use('/products', productsRouter);
 
 app.listen(port,() => {
