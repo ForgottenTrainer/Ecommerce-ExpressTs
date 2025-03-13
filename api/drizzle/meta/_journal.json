@@ -15,6 +15,13 @@
       "when": 1741718787492,
       "tag": "0001_jittery_the_leader",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1741900209026,
+      "tag": "0002_tiresome_mandrill",
+      "breakpoints": true
     }
   ]
 }
