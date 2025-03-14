@@ -1,4 +1,4 @@
-import * as productsSchema from './productsSchema'
-import * as usersSchema from './usersSchema'
+import * as productsSchema from './productsSchema.js'
+import * as usersSchema from './usersSchema.js'
 
 export default {...productsSchema, ...usersSchema}

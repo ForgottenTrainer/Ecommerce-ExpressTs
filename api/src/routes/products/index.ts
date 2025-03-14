@@ -1,8 +1,8 @@
 import {Router} from 'express'
-import {listProducts, getProductById, createProduct, updateProduct, deleteProduct} from './productsController'
-import { validateData } from '../../middleware/validationMiddleware'
-import { createProductSchema, updateProductSchema} from './../../db/productsSchema'
-import { verifySeller, verifyToken } from './../../middleware/authMiddleware'
+import {listProducts, getProductById, createProduct, updateProduct, deleteProduct} from './productsController.js'
+import { validateData } from '../../middleware/validationMiddleware.js'
+import { createProductSchema, updateProductSchema} from './../../db/productsSchema.js'
+import { verifySeller, verifyToken } from './../../middleware/authMiddleware.js'
 
 /*const createProductSchema = z.object({
     name: z.string({message: "El nombre no debe estar vacio"}),
