@@ -1,5 +1,6 @@
 import express, {json, urlencoded} from 'express';
 import productsRouter from './routes/products/index.js';
+import ordersRouter from './routes/orders/index.js';
 import authRoutes from './routes/auth/index.js'
 import serverless from 'serverless-http'
 
@@ -17,6 +18,7 @@ app.get('/', (req,res) => {
 //product endpoints
 app.use('/products', productsRouter);
 app.use('/auth', authRoutes);
+app.use('/orders', ordersRouter);
 
 app.listen(port,() => {
     console.log({port})
